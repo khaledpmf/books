@@ -1,0 +1,63 @@
+.fa-spin{
+	font-size: 50px;
+    color: #8080807a;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.thumbnail img {
+    width: 150px;
+}
+
+.add{
+	text-align: center;
+}
+
+.row.header {
+    margin-top: 10px;
+}
+
+#books-data{
+    text-align: center;
+    margin-top: 15px;
+}
+
+li{
+	list-style: none;
+}
+
+#add-book li, #edit-book li{
+	margin-bottom: 10px;
+}
+
+.thumbnail{
+	width: 150px;
+	height: 150px;
+	margin: 0px auto;
+}
+
+.ui-icon-circle-triangle-e {
+    background-position: center;
+    background-size: 12px 12px;
+    background-image: url(assets/icons/arrows-2x.png)!important;
+}
+
+.ui-icon-circle-triangle-w {
+    background-position: center;
+    background-size: 12px 12px;
+    background-image: url(assets/icons/arrows-2x-l.png)!important;
+}
+
+form#add-book ul,form#edit-book ul {
+	    padding: 10px;
+}
+
+#ui-datepicker-div{
+	z-index: 1060!important;
+}
+
+div#books-data .book {
+    background: #eaeaea;
+    padding: 2px;
+    margin: 2px;
+}
